@@ -32,7 +32,7 @@
 		<dependency>
 	   		<groupId>com.experitest</groupId>
 	  		<artifactId>seetest-client</artifactId>
-    		<version>12.8</version>
+    			<version>20.2</version>
 		</dependency>
 			<dependency>
 			<groupId>junit</groupId>
@@ -67,28 +67,28 @@
 		</dependency>
 		<dependency>
    			<groupId>io.appium</groupId>
-    		<artifactId>java-client</artifactId>
-    		<version>5.0.3</version>
-    	</dependency>
-    	<dependency>
+    			<artifactId>java-client</artifactId>
+    			<version>5.0.3</version>
+    		</dependency>
+    		<dependency>
 	   		<groupId>com.experitest</groupId>
 	  		<artifactId>appium-seetest-extension</artifactId>
-    		<version>12.8</version>
+    			<version>20.2</version>
 		</dependency>	
 		<dependency>
-         	<groupId>com.experitest</groupId>
-           	<artifactId>reporter-junit4</artifactId>
-           	<version>12.8</version>        
+         		<groupId>com.experitest</groupId>
+           		<artifactId>reporter-junit4</artifactId>
+           		<version>20.2</version>        
 		</dependency>
 		<dependency>
-           	<groupId>com.experitest</groupId>
-           	<artifactId>reporter-junit5</artifactId>
-           	<version>12.8</version>        
+           		<groupId>com.experitest</groupId>
+           		<artifactId>reporter-junit5</artifactId>
+           		<version>20.2</version>        
 		</dependency>
 		<dependency>
-         	<groupId>com.experitest</groupId>
-           	<artifactId>reporter-testng</artifactId>
-           	<version>12.8</version>        
+         		<groupId>com.experitest</groupId>
+           		<artifactId>reporter-testng</artifactId>
+           		<version>20.2</version>        
 		</dependency>
 		
 	</dependencies>
