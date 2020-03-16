@@ -84,6 +84,7 @@ public class Data {
 	    pathPerfReports = Paths.get("/seetestautomation", "SeeTestVerificationWorkspace", "PerformanceMeasurements", testRunId);
 	}  
 	
+	System.out.println("OS---" + System.getProperty("os.name").toLowerCase());
 	System.out.println("Create necesarry folders ...");
 	Files.createDirectories(pathReportsCurrentDeviceExtraFiles);
 	Files.createDirectories(pathPerfReports);
