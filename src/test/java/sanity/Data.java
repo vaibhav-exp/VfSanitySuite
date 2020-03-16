@@ -80,9 +80,11 @@ public class Data {
 	
 	if (System.getProperty("os.name").toLowerCase().startsWith("win")) {
 	    pathPerfReports = Paths.get("C:", "Automation", "SeeTestVerificationWorkspace", "PerformanceMeasurements", testRunId);
+	} else if (System.getProperty("os.name").toLowerCase().startsWith("lin")){
+	    pathPerfReports = Paths.get("/var/lib/jenkins/workspace/VodafoneSanity/seetestautomation", "SeeTestVerificationWorkspace", "PerformanceMeasurements", testRunId);
 	} else {
 	    pathPerfReports = Paths.get("/seetestautomation", "SeeTestVerificationWorkspace", "PerformanceMeasurements", testRunId);
-	}  
+	} 
 	
 	System.out.println("Project home directory: " + pathProjectHome);
 	System.out.println("OS: " + System.getProperty("os.name").toLowerCase());
