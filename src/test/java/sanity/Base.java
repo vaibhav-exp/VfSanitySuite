@@ -43,7 +43,7 @@ public class Base {
 	// Reserve
 	System.out.println("Reserving device: " + testData.deviceName);
 	start = System.currentTimeMillis();
-	client = grid.lockDeviceForExecution("sanity_" + testDesc, "@name='" + testData.deviceName + "'", 60, 180000);
+	client = grid.lockDeviceForExecution("sanity_" + testDesc, "@serialnumber='" + testData.deviceName + "'", 60, 180000);
 	if (client == null) {
 	    // It was observed that the lockDeviceForExecution is not throwing exception
 	    // when a reservation fails
