@@ -85,7 +85,9 @@ public class Data {
 	}  
 	
 	System.out.println("Project home directory: " + pathProjectHome);
-	System.out.println("OS---" + System.getProperty("os.name").toLowerCase());
+	System.out.println("OS: " + System.getProperty("os.name").toLowerCase());
+	System.out.println("Report Dir: " + pathPerfReports);
+	System.out.println("Extra files Dir: " + pathReportsCurrentDeviceExtraFiles);
 	System.out.println("Create necesarry folders ...");
 	Files.createDirectories(pathReportsCurrentDeviceExtraFiles);
 	Files.createDirectories(pathPerfReports);
