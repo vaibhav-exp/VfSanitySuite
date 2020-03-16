@@ -36,6 +36,7 @@ public class Base {
     public void reserveSeeTestGridNode(String testDesc) throws Exception {
 	// Create grid client
 	long start = System.currentTimeMillis();
+	System.out.println("Access Key: " + testData.seeTestGridAccessKey);
 	grid = new GridClient(testData.seeTestGridAccessKey, testData.seeTestGridURL, 443, true);
 	System.out.println("Grid client created.");
 
